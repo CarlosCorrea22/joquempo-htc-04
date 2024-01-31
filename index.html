@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Joquempo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="winner">
+        <h1>Jogador 1 ganhou!</h1>
+    </div>
+    <div class="scoreboard">
+        <h2>Jogador 1</h2>
+        <span class="player-1-score">01</span>
+        <span class="vs">VS</span>
+        <span class="player-2-score">01</span>
+        <h2>Jogador 2</h2>
+    </div>
+    <div class="main">
+        <div class="control-buttons player-1-buttons">
+            <span class="button player-1-rock-button">Pedra</span>
+            <span class="button player-1-paper-button">Papel</span>
+            <span class="button player-1-scissor-button">Tesoura</span>
+        </div>
+        <div class="game-hud">
+            <div class="hands-display player-1-hand">
+                #
+            </div>
+            <span class="big-vs">VS</span>
+            <div class="hands-display player-2-hand">
+                #
+            </div>
+        </div>
+        <div class="control-buttons player-2-buttons">
+            <span class="button player-2-rock-button">Pedra</span>
+            <span class="button player-2-paper-button">Papel</span>
+            <span class="button player-2-scissor-button">Tesoura</span>
+        </div>
+    </div>
+    <div class="start-reset-buttons">
+        <span class="button start-button">Iniciar</span>
+        <span class="button reset-button">Resetar</span>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
