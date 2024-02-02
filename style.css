@@ -152,6 +152,14 @@ h2 {
 	font-weight: 600;
 	font-size: clamp(15px, 2vw, 100px);
 	border-radius: 8px;
+	border: solid var(--cor1) 1px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: var(--cor3);
+	color: var(--cor1);
+	transition-duration: 0.3s;
 }
 
 .game-hud {
@@ -161,6 +169,7 @@ h2 {
 	align-items: center;
 	justify-content: space-around;
 	margin-left: 1vw;
+	border-radius: 17px;
 }
 
 .hands-display {
@@ -168,6 +177,18 @@ h2 {
 	height: 32vh;
 	width: 24vw;
 	border-radius: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hands-display img {
+	width: 23vw;
+	height: auto;
+}
+
+.player-2-hand img {
+	transform: scaleX(-1);
 }
 
 .big-vs {
