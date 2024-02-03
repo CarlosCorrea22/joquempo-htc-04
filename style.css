@@ -93,11 +93,11 @@ body {
 }
 
 h2 {
-	font-size: clamp(16px, 2vw, 100px);
+	font-size: clamp(14px, 2vw, 100px);
 	font-weight: bold;
 }
 
-.player-1-score {
+.player-score {
 	padding: 0.5%;
 	background-color: var(--cor0);
 	width: 9vw;
@@ -114,20 +114,6 @@ h2 {
 .vs {
 	font-weight: 900;
 	font-size: clamp(20px, 3vw, 100px);
-}
-
-.player-2-score {
-	padding: 0.5%;
-	background-color: var(--cor0);
-	width: 9vw;
-	height: 9vh;
-	color: var(--cor1);
-	border-radius: 17px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: clamp(40px, 3vw, 100px);
-	font-weight: 900;
 }
 
 .main {
