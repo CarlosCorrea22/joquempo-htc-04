@@ -192,3 +192,12 @@ h2 {
 	width: 35vw;
 	margin-top: 2vh;
 }
+
+.started {
+	background-color: red;
+	border: 1px solid red;
+}
+
+.started:hover {
+	color: red;
+}
